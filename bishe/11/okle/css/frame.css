@@ -1,0 +1,352 @@
+﻿.banner_1 {
+    margin: 0px auto; width: 100%; height: 450px; text-align: center; overflow: hidden; font-size: 0px;
+}
+
+.focus {
+    margin: 0px auto; width: 100%; height: 450px; overflow: hidden; float: left; position: relative; background-color: rgb(0, 0, 0);
+}
+.banner img {
+    width: 100%;
+}
+.focus .shadow .title {
+    width: 100%; height: 65px; padding-top: 20px; padding-left: 30px;
+}
+.focus .shadow .title a {
+    color: rgb(255, 255, 255); overflow: hidden; font-size: 14px; font-weight: bolder; text-decoration: none;
+}
+.focus .btn {
+    left: 510px; bottom: 34px; overflow: hidden; position: absolute; -ms-zoom: 1;
+}
+.focus .btn a {
+    background: rgb(217, 217, 217); font: 12px/15px "宋体"; margin: 0px 5px; outline: 0px; border-radius: 7px; width: 13px; height: 13px; text-align: center; color: rgb(176, 176, 176); text-decoration: none; float: left; display: inline; position: relative; font-size-adjust: none; font-stretch: normal;
+}
+.focus .btn a:hover {
+    background: rgb(252, 17, 74); cursor: pointer;
+}
+.focus .btn a.current {
+    background: rgb(252, 17, 74); cursor: pointer;
+}
+.focus .fPic {
+    left: 0px; top: 0px; width: 100%; position: absolute;
+}
+.focus .D1fBt {
+    height: 16px; overflow: hidden; z-index: 10; -ms-zoom: 1;
+}
+.focus .shadow {
+    background:url(../images/banner-bg.png) repeat;left: 0px; width: 100%; height: 55px; text-align: left; bottom: 0px; display: block; position: absolute; z-index: 10;
+}
+.focus .shadow a {
+    left: 50%; width: 800px; height: 55px; color: rgb(255, 255, 255); line-height: 55px; overflow: hidden; font-family: "微软雅黑"; font-size: 24px; text-decoration: none; margin-left: -600px; display: inline-block; position: absolute;
+}
+.focus .fcon {
+    background: rgb(0, 0, 0); width: 100%; height: 450px; float: left; display: none; position: relative;
+}
+.focus .fcon img {
+    display: block;
+}
+.focus .fbg {
+    width: 150px; height: 20px; text-align: center; right: 300px; bottom: 10px; position: absolute; z-index: 200;
+}
+.focus .fbg div {
+    margin: 4px auto 0px; height: 14px; overflow: hidden; -ms-zoom: 1;
+}
+.focus .D1fBt a {
+    background:#fff; margin: 0px 5px; width: 14px; height: 14px; color: rgb(176, 176, 176); float: left; display: inline; position: relative; _background: none;
+}
+.focus .D1fBt .current {
+    background:#005bac;
+}
+.focus .D1fBt a:hover {
+    background:#005bac;
+}
+.focus .D1fBt img {
+    display: none;
+}
+.focus .D1fBt i {
+    font-style: normal; display: none;
+}
+.focus .prev {
+    background: url("../images/focus_btn_z.png") no-repeat; width: 90px; height: 90px; position: absolute; _background: none;
+}
+.focus .next {
+    background: url("../images/focus_btn_y.png") no-repeat; width: 90px; height: 90px; position: absolute; _background: none;
+}
+
+.focus .prev {
+   left: 0px; top: 50%; margin-top: -37px; cursor: pointer;
+}
+.focus .next {
+   top: 50%; right: 0px; margin-top: -37px; cursor: pointer;
+}
+
+#lib_Tab1 {
+    margin: 0px 0px 15px; padding: 0px; width: 504px;
+}
+.lib_Menubox {
+    height: 40px; line-height: 40px; font-size: 14px; border-bottom-color: rgb(239, 122, 8); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.lib_Menubox ul {
+    list-style: none; margin: 0px; padding: 0px; left: 0px; top: 3px; height: 40px; text-align: center; position: absolute;
+}
+.lib_Menubox li {
+    width: 120px; height: 40px; color: rgb(0, 33, 71); line-height: 30px; margin-right: 2px; float: left; display: block; cursor: pointer;
+}
+.lib_Menubox li.hover {
+    background: rgb(255, 255, 255); padding: 0px; width: 122px; height: 37px; color: rgb(239, 122, 8); line-height: 30px; border-top-color: rgb(239, 122, 8); border-right-color: rgb(239, 122, 8); border-left-color: rgb(239, 122, 8); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.lib_Contentbox {
+    padding: 10px; width: 730px; clear: both; margin-top: 0px; border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.col a {
+    color: rgb(102, 102, 102); font-size: 12px;
+}
+.col-1 a {
+    color: rgb(102, 102, 102); font-size: 12px;
+}
+.col a:hover {
+    color: rgb(239, 122, 8);
+}
+.col-1 a:hover {
+    color: rgb(239, 122, 8);
+}
+.col img {
+    vertical-align: middle;
+}
+.col-1 img {
+    vertical-align: middle;
+}
+.col {
+    padding: 12px 15px; border-top-color: rgb(215, 215, 215); border-right-color: rgb(215, 215, 215); border-bottom-color: rgb(215, 215, 215); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.col-1 {
+    padding: 12px 15px; border-top-color: rgb(255, 255, 255); border-right-color: rgb(215, 215, 215); border-left-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; background-color: rgb(247, 247, 250);
+}
+.lib_tabborder p {
+    color: rgb(51, 51, 51); line-height: 40px; font-size: 14px; font-weight: bold;
+}
+.content {
+    margin: 0px auto; width: 1100px;
+}
+.w_1000 {
+    width: 1000px;
+}
+.m {
+    width: 195px; height: 50px; color: rgb(51, 51, 51); line-height: 50px; padding-left: 20px; border-bottom-color: rgb(242, 242, 242); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.n {
+    background: url("../images/jt.jpg") no-repeat 180px 22px rgb(238, 238, 238); width: 187px; height: 50px; color: rgb(239, 122, 8); line-height: 50px; padding-left: 20px;
+}
+#box a {
+    width: 195px; float: left; display: block; _width: 215px;
+}
+.er-left-1 {
+    background: rgb(255, 255, 255); padding-bottom: 8px;
+}
+.nr_title {
+    width: 100%; text-align: center; color: rgb(51, 51, 51); font-size: 24px; margin-bottom: 20px;
+}
+.search_1 ul {
+    width: 955px;
+}
+.search_1 li {
+    width: 1010px; height: 30px; overflow: hidden; margin-right: 0px;
+}
+.search_1 li a {
+    width: 895px; height: 30px; overflow: hidden; font-size: 14px; float: left; display: block;
+}
+.search_1 li span {
+    color: rgb(221, 75, 57);
+}
+.fanye {
+    width: 504px; height: 35px; text-align: center; line-height: 35px; padding-left: 300px;
+}
+.fanye a {
+    color: rgb(153, 153, 153); margin-right: 15px;
+}
+.fanye_1 {
+    border: 1px solid rgb(153, 153, 153); border-image: none; width: 18px; height: 18px; text-align: center; line-height: 18px; margin-top: 8px; display: block;
+}
+.fanye_1:hover {
+    background: rgb(44, 109, 159); border: 1px solid rgb(44, 109, 159); border-image: none; color: rgb(255, 255, 255);
+}
+.f-12 {
+    font-size: 12px;
+}
+.f-14 {
+    font-size: 14px;
+}
+.f-16 {
+    font-size: 16px;
+}
+.f-18 {
+    font-size: 18px;
+}
+.f-20 {
+    font-size: 20px;
+}
+.f-24 {
+    font-size: 24px;
+}
+.gray-1 {
+    color: rgb(51, 51, 51);
+}
+.gray-2 {
+    color: rgb(102, 102, 102);
+}
+.gray-3 {
+    color: rgb(153, 153, 153);
+}
+.green {
+    color: rgb(0, 153, 51);
+}
+.orange {
+    color: rgb(239, 122, 8);
+}
+.blue {
+    color: rgb(51, 102, 153);
+}
+.blue-1 {
+    color: rgb(0, 33, 71);
+}
+.blue-2 {
+    color: rgb(95, 151, 206);
+}
+.yellow {
+    color: rgb(253, 212, 117);
+}
+.table_1 {
+    margin: 0px auto; width: 730px;
+}
+.table_1 li {
+    border: 1px solid rgb(215, 215, 215); border-image: none; width: 241px; height: 41px; margin-bottom: -1px; margin-left: -1px;
+}
+.table_1 li .a1 {
+    background: rgb(247, 247, 250); width: 225px; height: 40px; color: rgb(102, 102, 102); line-height: 40px; padding-left: 15px; border-top-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; display: block;
+}
+.table_1 li .b1 {
+    background: rgb(255, 255, 255); width: 225px; height: 40px; color: rgb(102, 102, 102); line-height: 40px; padding-left: 15px; border-top-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; display: block;
+}
+搜索搜索 .xs {
+    width: 100%; float: left;
+}
+.sfrz {
+    background: url("../images/link.jpg") no-repeat left 0px; padding: 0px 0px 20px 40px; width: 680px; color: rgb(102, 102, 102); line-height: 20px; font-size: 14px; margin-left: 20px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted; float: left;
+}
+.xs table {
+    padding: 15px 0px; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.xs table td {
+    padding: 5px 10px; color: rgb(51, 51, 51);
+}
+.xs table td a {
+    color: rgb(51, 51, 51);
+}
+.jj-table a {
+    color: rgb(51, 51, 51);
+}
+.jj-table a:hover {
+    color: rgb(255, 157, 84);
+}
+.liren-ld-1 {
+    padding: 0px 20px; width: 744px; margin-bottom: 20px;
+}
+.list-ld {
+    width: 744px;
+}
+.list-ld li p {
+    text-indent: 0px;
+}
+.list-ld li {
+    background: url("../images/pic_9.jpg") no-repeat left; width: 290px; text-align: left; line-height: 30px; overflow: hidden; padding-left: 14px; margin-right: 65px;
+}
+.list-ld a {
+    color: rgb(102, 102, 102); font-size: 12px;
+}
+.liren-ld p {
+    padding: 0px 15px; width: 750px; font-size: 14px; font-weight: bold; float: left;
+}
+#imgbox-loading {
+    left: 0px; top: 0px; display: none; position: absolute; z-index: 90; cursor: pointer;
+}
+#imgbox-loading div {
+    background: rgb(255, 255, 255); width: 100%; height: 100%;
+}
+#imgbox-overlay {
+    background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 80;
+}
+.imgbox-wrap {
+    background: rgb(255, 255, 255); left: 0px; top: 0px; display: none; position: absolute; z-index: 110;
+}
+.imgbox-img {
+    margin: 0px; padding: 0px; border: currentColor; border-image: none; width: 100%; height: 100%; vertical-align: top;
+}
+.imgbox-title {
+    text-align: center; color: rgb(51, 51, 51); padding-top: 10px; font-family: Arial; font-size: 11px; display: none;
+}
+.imgbox-bg-wrap {
+    margin: 0px; padding: 0px; display: none; position: absolute;
+}
+.imgbox-bg {
+    width: 20px; height: 20px; position: absolute;
+}
+.dwbgs a {
+    color: rgb(51, 51, 51);
+}
+.dwbgs a:hover {
+    color: rgb(240, 122, 7);
+}
+.ldjg-3 {
+    color: rgb(51, 51, 51); font-size: 14px; margin-top: 10px;
+}
+.jd-list-9 input {
+    border: 1px solid rgb(175, 213, 245); border-image: none;
+}
+.shou_news_list li .new-jd {
+    width: 300px; height: 180px; overflow: hidden; display: block;
+}
+.biaozhi table p {
+    text-indent: 0em;
+}
+.foot_1_1 {
+    width: 150px; padding-top: 10px; float: left;
+}
+.foot_1_1 a {
+    text-align: left;
+}
+.two-code {
+    text-align: center; line-height: 28px; float:left;
+}
+.list-paddingleft-2 li {
+    width: 100%; float: left;
+}
+.list-ld-9 li {
+    text-align: left; text-indent: 0em;
+}
+.jd-jd {
+    color: rgb(51, 51, 51); font-size: 14px;
+}
+.jd-jd:hover {
+    color: rgb(239, 122, 8);
+}
+table.altrowstable {
+    color: rgb(51, 51, 51); line-height: 24px; font-size: 14px; border-collapse: collapse;
+}
+table.altrowstable th {
+    background: rgb(0, 34, 72); padding: 5px; border: 1px solid rgb(0, 34, 72); border-image: none; color: rgb(255, 255, 255);
+}
+table.altrowstable td {
+    padding: 8px; border: 1px solid rgb(215, 215, 215); border-image: none;
+}
+.oddrowcolor {
+    color: rgb(51, 51, 51);
+}
+.evenrowcolor {
+    background: rgb(247, 247, 250);
+}
+#vsb_content_2 table td {
+    border: 0px currentColor; border-image: none;
+}
+.img_vsb_content {
+    margin: 0px 10px;
+}
+.two-code-1{width:86px; height:86px;}
